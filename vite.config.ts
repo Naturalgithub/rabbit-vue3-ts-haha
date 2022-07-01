@@ -11,6 +11,17 @@ export default defineConfig({
     alias: {
       '@': path.resolve(__dirname, './src')
     }
+  },
+  // 样式处理-自动导入
+  css: {
+    preprocessorOptions: {
+      less: {
+        additionalData: `
+          @import "@/assets/styles/variables.less";
+          @import "@/assets/styles/mixins.less";
+        `
+      }
+    }
   }
 
 })
