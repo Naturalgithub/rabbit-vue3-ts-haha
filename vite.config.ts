@@ -19,6 +19,7 @@ export default defineConfig({
         additionalData: `
           @import "@/assets/styles/variables.less";
           @import "@/assets/styles/mixins.less";
+          @import "@/assets/styles/common.less";
         `
       }
     }

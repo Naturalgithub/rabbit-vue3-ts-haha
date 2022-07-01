@@ -7,9 +7,9 @@
   </div>
 </template>
 <style lang="less" scoped>
-
 div{
-  color:@xtxColor
+  color:@xtxColor;
+  .hoverShadow()
 }
   
 </style>
